@@ -46,8 +46,6 @@ jobs:
   test: 
     name: TEST JOB
     runs-on: ubuntu-latest
-    environment:
-      name : thienvv
     defaults:
       run:
         working-directory: ./starter/backend
