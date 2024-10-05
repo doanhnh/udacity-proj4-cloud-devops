@@ -1,6 +1,6 @@
 # This is a basic workflow that is manually triggered
 
-name: Backend Continuous Integration
+name: Backend Continuous Integration 
 
 # Controls when the workflow will run
 on:

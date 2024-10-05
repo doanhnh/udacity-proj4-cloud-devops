@@ -115,7 +115,7 @@ jobs:
           docker tag ${{env.IMAGE_REPO_NAME}}:${{env.IMAGE_TAG}} 518282935483.dkr.ecr.us-east-1.amazonaws.com/${{env.IMAGE_REPO_NAME}}:${{env.IMAGE_TAG}}
           docker push 518282935483.dkr.ecr.us-east-1.amazonaws.com/${{env.IMAGE_REPO_NAME}}:${{env.IMAGE_TAG}}
   
-      - name: Deploy to AWS EKS
+      - name: Deploy to AWS EKS 
         run: |
           aws eks update-kubeconfig --name cluster --region us-east-1
           cd k8s
